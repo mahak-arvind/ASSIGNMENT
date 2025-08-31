@@ -1,5 +1,6 @@
-#Task 2: Create a Personalized Greeting
-first_name=input('enter your first name : ')
-last_name=input('enter your last name : ')
-full_name=(first_name+' '+last_name)
-print("Hello, "+full_name+"!"+" Welcome to the python program. ")
+#Task 2: Sum of Integers from 1 to 50 Using a Loop
+
+sum=0
+for i in range(1,51):
+     sum=sum+i;
+print(sum)
